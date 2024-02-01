@@ -252,11 +252,6 @@ img {
 .third-type {
     text-align: left;
 }
-
-
-
-
-
 .list-cards {
     display: flex;
     flex-wrap: wrap;
@@ -276,7 +271,6 @@ img {
 .portfolio-cards {
     width: calc((100% - 48px) / 3);
 }
-
 .logo-a {
     display: inline-block;
     margin-bottom: 16px;
@@ -339,10 +333,9 @@ p {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     
 }
-
 .first-section {
-    background-image: url('images/people-office1.jpg');
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('images/people-office1.jpg');
+    background-image: url(../images/people-office\ 1.jpg);
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -357,11 +350,11 @@ p {
 }
 
 .list::after {
-    content: '''';
+    content: '';
     background-color: #404bbf;
 }
 .list::after {
-     position: absolute;
+    position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
@@ -371,7 +364,15 @@ p {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
 
 
