@@ -433,6 +433,8 @@ p {
 .contfooter {
     display: flex;
     align-items: baseline;
+}
+.classfooter {
     margin-right: 120px;
 }
 .social-media {
