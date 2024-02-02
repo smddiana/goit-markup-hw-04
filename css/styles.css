@@ -437,22 +437,64 @@ p {
 .classfooter {
     margin-right: 120px;
 }
-.social-media {
-    color: var(--WHITE, #FFF);
-    
-        /* Body Medium */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
-        margin-bottom: 16px;
+:root {
+    --paragraph-text-color: #FFFFFF;
+}
+
+.soc-text {
+    color: var(--paragraph-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.footer-soc {
+    display: flex;
+    gap: 16px;    
+}
+ /*.footer-icons {
+    width: 40px;
+    height: 40px;
+}
+.footer-social-links {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/*
+:root {
+    --link-background-color: #4d5ae5;
+}
+
+/* Стилі для посилання з використанням CSS-змінної */
+.footer-social-links {
+    background-color: var(--link-background-color);
+    /* Інші стилі для посилання можна додавати за потребою */
+}
+
+.footer-social-links:hover {
+    background-color: #31d0aa;
 }
 
 
+.footer-social-links:focus {
+    outline: none;
+    background-color: #31d0aa;
+}
 
+    
 
-
-
+:root {
+  --svg-fill-color: #f4f4fd;
+}
+.icons-footer-svg {
+  fill: var(--svg-fill-color);
+  /* Інші стилі для SVG можна додавати за потребою */
+}
