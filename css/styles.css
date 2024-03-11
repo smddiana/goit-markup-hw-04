@@ -334,7 +334,6 @@ p {
     
 }
 .first-section {
-    background-image: url(../images/people-office\ 1.jpg);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -349,7 +348,7 @@ p {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list::after {
+.list-one::after {
     content: '';
     background-color: #404bbf;
 }
@@ -441,12 +440,18 @@ p {
     --paragraph-text-color: #FFFFFF;
 }
 
+
 .soc-text {
     color: var(--paragraph-text-color);
-    font-weight: 500;
+}
+.soc-text {
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
     margin-bottom: 16px;
 }
 .footer-soc {
@@ -496,5 +501,5 @@ p {
 }
 .icons-footer-svg {
   fill: var(--svg-fill-color);
-  /* Інші стилі для SVG можна додавати за потребою */
+  
 }
