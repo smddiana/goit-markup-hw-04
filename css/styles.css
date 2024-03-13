@@ -412,7 +412,7 @@ p {
 .social-info {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
 
 }
 .soc-icons {
