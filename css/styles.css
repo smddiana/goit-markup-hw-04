@@ -193,6 +193,10 @@ img {
     padding: 0 15px;
     margin: 0 auto;
 }
+.section2-container {
+    border: 1px solid #8e8f99;
+}
+
 .nav-container {
     display: flex;
     align-items: center;
@@ -334,7 +338,7 @@ p {
     
 }
 .first-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
