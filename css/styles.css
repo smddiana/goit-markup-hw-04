@@ -528,6 +528,5 @@ p {
 }
 .social-info-footer {
     display: flex;
-    justify-content: center;
     gap: 16px;
 }
