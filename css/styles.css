@@ -526,3 +526,8 @@ p {
   fill: var(--svg-fill-color);
   
 }
+.social-info-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
