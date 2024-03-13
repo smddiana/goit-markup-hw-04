@@ -412,7 +412,8 @@ p {
 .social-info {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
+
 }
 .soc-icons {
     width: 40px;
@@ -437,14 +438,14 @@ p {
 
 /* Стиль при наведенні */
 .icons-links:hover {
-    background-color: #404bbf;
+    background-color:#31d0aa;
 }
 
 /* Стиль при фокусі */
 .icons-links:focus {
     outline: none;
     /* забирає синій контур при фокусі */
-    background-color: #404bbf;
+    background-color: #31d0aa;;
 }
 .icons-links {
     display: flex;
