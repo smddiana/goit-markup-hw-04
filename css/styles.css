@@ -503,10 +503,7 @@ p {
     letter-spacing: 0.32px;
     margin-bottom: 16px;
 }
-.footer-soc {
-    display: flex;
-    gap: 16px;    
-}
+
 /* Стилі для посилання з використанням CSS-змінної */
 .footer-social-links {
     background-color: var(--link-background-color);
